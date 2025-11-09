@@ -23,3 +23,9 @@ requiredInputs.forEach((input) => {
   input.style.outline = "2px solid gold";
 });
 console.info(`Number of required inputs: ${requiredInputs.length}`);
+
+const cards = document.querySelectorAll(".card");
+cards.forEach((card) => {
+  card.setAttribute("data-viewed", "true");
+});
+console.info(`Number of cards: ${cards.length}`);
