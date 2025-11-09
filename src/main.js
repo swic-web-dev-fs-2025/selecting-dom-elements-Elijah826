@@ -34,3 +34,6 @@ const product2 = document.querySelector('[data-product-id="2"]');
 const priceElement = product2.querySelector(".price");
 priceElement.textContent = "$24.99";
 console.info(`Updated price for product 2: ${priceElement.textContent}`);
+
+// const title = document.querySelector("main .card .card-title");
+// const title = document.querySelector('[data-role="card-title"]');
