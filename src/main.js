@@ -8,3 +8,6 @@ document.querySelector("#app").innerHTML = `
 
 const header = document.getElementById("main-header");
 console.info(header);
+
+const navbarLinks = document.querySelectorAll(".navbar a");
+console.info(`Number of links in navbar: ${navbarLinks.length}`);
