@@ -29,3 +29,8 @@ cards.forEach((card) => {
   card.setAttribute("data-viewed", "true");
 });
 console.info(`Number of cards: ${cards.length}`);
+
+const product2 = document.querySelector('[data-product-id="2"]');
+const priceElement = product2.querySelector(".price");
+priceElement.textContent = "$24.99";
+console.info(`Updated price for product 2: ${priceElement.textContent}`);
