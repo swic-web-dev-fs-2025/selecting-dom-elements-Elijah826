@@ -5,3 +5,6 @@ document.querySelector("#app").innerHTML = `
     Hello Vite!
   </h1>
 `;
+
+const header = document.getElementById("main-header");
+console.info(header);
