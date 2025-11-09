@@ -17,3 +17,9 @@ internalLinks.forEach((link) => {
   link.textContent += " [internal]";
 });
 console.info(`Number of internal links: ${internalLinks.length}`);
+
+const requiredInputs = document.querySelectorAll("input[required]");
+requiredInputs.forEach((input) => {
+  input.style.outline = "2px solid gold";
+});
+console.info(`Number of required inputs: ${requiredInputs.length}`);
